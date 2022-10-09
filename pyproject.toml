@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "services-registry"
+version = "0.0.1"
+authors = [
+  { name="Yaroslav Grebnov", email="grebnov@gmail.com" },
+]
+description = "A registry for managing services in Python applications"
+readme = "README.rst"
+license = { file="LICENSE" }
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ygrebnov/services-registry"
+"Bug Tracker" = "https://github.com/ygrebnov/services-registry/issues"
