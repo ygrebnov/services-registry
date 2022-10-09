@@ -2,22 +2,20 @@
 services-registry
 =================
 
-|python| |version|
-
-.. |version| image:: http://img.shields.io/pypi/v/services-registry.svg
+.. image:: http://img.shields.io/pypi/v/services-registry.svg
   :target: https://pypi.python.org/pypi/services-registry
 
-.. |python| image:: https://img.shields.io/pypi/pyversions/services-registry.svg
+.. image:: https://img.shields.io/pypi/pyversions/services-registry.svg
   :target: https://pypi.python.org/pypi/services-registry/
-
-A registry to manage services in a Python application.
 
 Description
 ===========
 
-* Registry keeps track of all initialized services and returns corresponding services handlers to caller.
-* Registry initializes a service if it has not been initialized before being requested.
-* Registry makes sure that at any point of time, at most one service registry handler exists.
+**services-registry** is a registry to manage services in a Python application:
+
+* keep track of all initialized services and returns corresponding services handlers to caller,
+* initialize a service if it has not been initialized before being requested,
+* make sure that at any point of time, at most one service registry handler exists.
 
 Usage
 =====
